@@ -1,13 +1,72 @@
-body{
-    background-color: rgb(10, 188, 248);
-    color: red;
+body{/*body style*/
+    background-color: #3B38A0;
+    color: #949ccc;
     font: 20px Arial, Helvetica, sans-serif;
-    text-align: center;
     margin: 0;
     padding: 0;
 }
-.container{
+.container{/*container style*/
     width: 80%;
     margin: auto;
     overflow: hidden;
+}
+#main-header{/*main-header style*/
+    background-color: #7A85C1;
+    color: #fff;
+    width: 100% ;
+    
+ }
+ .logo{/*logo style*/
+     float: left;
+     color:#B2B0E8 ;
+     text-align: center;
+    
+     
+ }
+ #navbar{/*nav style*/
+    margin-top: 10px ;
+     float: right;
+     
+ }
+ #navbar ul{/*nav ul style*/
+    padding: 0;
+    list-style: none;
+}
+#navbar li{/*nav li style*/
+    display: inline;
+    padding: 15px 10px;
+    cursor: pointer;
+}
+#navbar a{/*nav a style*/
+    color: #B2B0E8;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 15px 10px;
+    cursor: pointer;
+}
+#navbar a:hover{/*nav a hover style*/
+    background-color: #fff;
+    color: #333;
+    border-radius: 4px;
+    opacity: 0.2;
+}
+#hero{/*hero style*/
+    background:url(./image/image3.jpg);
+    height:500px;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 30px;
+    text-align: center;
+}  
+#hero h2{/*hero h2 style*/
+    padding-top: 100px;
+    font-size: 55px;
+    line-height: 1.2;
+    color: #fff;
+
+}
+#hero p{/*hero p style*/
+    font-size: 20px;
+    color: #6b66f4;
 }
