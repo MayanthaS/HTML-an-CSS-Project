@@ -70,3 +70,26 @@ body{/*body style*/
     font-size: 20px;
     color: #6b66f4;
 }
+#main-section{/*main section style*/
+    float: left;
+    width:70%;
+    padding:0 30px;
+    box-sizing: border-box;
+}
+#sidebar{/*sidebar style*/
+ float: right;
+ width: 30%;
+ box-sizing: border-box;
+ padding: 20px 30px;
+ background-color: #333;
+ opacity: 0.25;
+ text-align: center;
+}
+#ftr{/*footer style*/
+    background-color:#1A2A80 ;
+    color: #B2B0E8;
+    padding: 20px;
+    text-align: center;
+    margin-top: 110px;
+
+}
