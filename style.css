@@ -1,0 +1,13 @@
+body{
+    background-color: rgb(10, 188, 248);
+    color: red;
+    font: 20px Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
